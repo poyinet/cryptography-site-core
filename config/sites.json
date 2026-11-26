@@ -1,0 +1,32 @@
+{
+  "contentRepo": "../cryptography-decode-history",
+  "gamesRepo": "../cryptography-games",
+  "sites": {
+    "main": {
+      "repo": "../cryptography-site-main",
+      "domain": "poyi.net",
+      "origin": "https://poyi.net",
+      "localPort": 8789,
+      "basePath": "/"
+    },
+    "learn": {
+      "repo": "../cryptography-site-learn",
+      "domain": "learn.poyi.net",
+      "origin": "https://learn.poyi.net",
+      "localPort": 8790,
+      "basePath": "/"
+    },
+    "play": {
+      "repo": "../cryptography-site-play",
+      "domain": "play.poyi.net",
+      "origin": "https://play.poyi.net",
+      "localPort": 8791,
+      "basePath": "/"
+    }
+  },
+  "gameDemo": {
+    "repo": "../cryptography-games",
+    "origin": "https://poyinet.github.io/cryptography-games",
+    "basePath": "/cryptography-games/"
+  }
+}
